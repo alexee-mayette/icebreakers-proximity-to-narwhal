@@ -1,9 +1,9 @@
-# Proximity analysis between icebreakers and narwals, Eclipse Sound, Nunavut, Canada
+# Proximity analysis between icebreakers and narwals in Tasiujaq, Nunavut, Canada
 **Author**: Alexandra Mayette  
-**Date**: 2024-06  
-**Manuscript**: Mayette et al. 2024. Proximity analysis between icebreakers and narwals, Tasiujaq, Nunavut, Canada. *in review* 
+**Date**: 2024-08  
+**Manuscript**: Mayette et al. 2024. Proximity analysis between icebreakers and narwals, Tasiujaq, Nunavut, Canada. Journal of Wildlife Management
 
-This code accompanies the analysis presented in Mayette et al. 2024. The code presents the steps carried out in R for the analysis, giving the example of a narwhal (narwhal 16_148684 from the 2016 season). The analysis was repeated for 2017 and 2018 data, following the same steps.
+This code accompanies the analysis presented in Mayette et al. 2024. The code presents the steps carried out in R for the analysis, giving the example of a narwhal (narwhal 16_148684 from the 2016 season). The analysis was repeated for all narwhals in 2016, 2017 and 2018 data, following the same steps.
 ## Data preparation
 ### Narwhal
 Before the distance analysis, narwhal and ship position data were processed. First, a correlation random walk was performed for each tagging season (2016-2018), using the [aniMotum](https://github.com/ianjonsen/aniMotum) package and the fitted positions were saved as a .csv file.
@@ -143,3 +143,4 @@ icebreakers2016.sf <- icebreakers2016.sf %>%
                 lat_m = st_coordinates(.)[,2])
 ```
 The `narwhals2016_reroute` and `icebreakers2016.sf` files will be used for the distance analysis. 
+See the R file for the distance analysis and maps created for the manuscript.
