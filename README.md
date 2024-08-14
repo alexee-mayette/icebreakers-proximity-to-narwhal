@@ -1,6 +1,6 @@
 # Proximity analysis between icebreakers and narwals in Tasiujaq, Nunavut, Canada
 **Author**: Alexandra Mayette  
-**Date**: 2024-08 
+**Date**: 2024-08  
 **Manuscript**: Mayette et al. 2024. Proximity analysis between icebreakers and narwals, Tasiujaq, Nunavut, Canada. Journal of Wildlife Management
 
 This code accompanies the analysis presented in Mayette et al. 2024. The code presents the steps carried out in R for the analysis, giving the example of a narwhal (narwhal 16_148684 from the 2016 season). The analysis was repeated for all narwhals in 2016, 2017 and 2018 data, following the same steps.
